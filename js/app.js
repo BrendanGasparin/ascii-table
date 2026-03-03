@@ -22,6 +22,7 @@ for (let r = 0; r < 16; r++) {
         const cell2 = row.insertCell();
 
         cell1.textContent = ascii_value;
+        cell1.style.backgroundColor= "#bbbbff";
         cell2.textContent = symbol;
     }
 }
